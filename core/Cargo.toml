@@ -1,0 +1,15 @@
+[package]
+name = "vlitz-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vlitz-shared = { path = "../shared" }
+vlitz-runtime = { path = "../runtime" }
+anyhow = "1.0"
+thiserror = "1.0"
+regex = "1.9"
+nom = "7.1"
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0" 
